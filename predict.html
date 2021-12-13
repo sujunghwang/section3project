@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <div>
+            {% if pred <= 0 %}
+            <h3>0대의 자전거가 있을 것으로 예상됩니다.</h3>
+            {% else %}
+            <h3>{{ pred }}대의 자전거가 있을 것으로 예상됩니다.</h3>
+            {% endif %}
+        </div>
+        <div>
+            <button type="button" onclick="location.href='../'">다시 예측하기</button>
+        </dic>
+    </body>
+</html>
